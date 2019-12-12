@@ -96,7 +96,9 @@ public class PeliculaDaoImpl implements PeliculaDao {
 	}
 
 	public TreeSet<String> listaDirectores() {
-
+	
+		listaDirectores = pService.listaDirectores();
+		
 		return listaDirectores;
 
 	}
